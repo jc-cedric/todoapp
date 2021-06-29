@@ -1,10 +1,15 @@
 import TodoApp from './components/TodoApp.js'
+ import { Container, Row } from 'react-bootstrap'
 
 function App() {
   return (
-    <div className="App">
-      <TodoApp/>
-    </div>
+    <Container>
+      <Row className="justify-content-md-center">
+        <div className="App">
+          <TodoApp/>
+        </div>
+      </Row>
+    </Container>
   );
 }
 

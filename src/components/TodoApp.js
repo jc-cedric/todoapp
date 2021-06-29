@@ -1,5 +1,6 @@
 import React from 'react'
 import TodoList from './TodoList'
+import { Button } from 'react-bootstrap'
 
 class TodoApp extends React.Component {
   constructor(props) {
@@ -22,9 +23,9 @@ class TodoApp extends React.Component {
             onChange={this.handleChange}
             value={this.state.text}
           />
-          <button>
+          <Button variant="primary">
             Add #{this.state.items.length + 1}
-          </button>
+          </Button>
         </form>
         <TodoList items={this.state.items} />
       </div>
