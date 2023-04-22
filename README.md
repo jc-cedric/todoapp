@@ -1,1 +1,1 @@
-A simple todoApp build with ReactJS
+A simple todoApp built with ReactJS
